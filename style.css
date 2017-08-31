@@ -41,3 +41,29 @@ header {
 	padding-top: 10px;
 	padding-left: 250px;
 }
+/*SECTION 3*/
+.credibility {
+	height: 70px;
+	background-color: white;
+}
+.credibility-media {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/*SECTION 4*/
+.subscribe {
+	background-color: #215E73;
+	height: 220px;
+	padding: 70px 0 50px 150px; 
+
+	color: white;
+}
+.tile-subscribe {
+	padding-left: 20px;
+	font-weight: normal;
+	font-size: 14px;
+}
+.subscribe-text{
+	padding-right: 10px;
+	font-size: 14px;
+}
