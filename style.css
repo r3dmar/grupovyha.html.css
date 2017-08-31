@@ -1,0 +1,43 @@
+.contaner {
+	font-family: Arial;
+	width: 1170px;
+	margin: auto;    
+}
+
+/*SECTION 1*/
+
+header {
+	background-color: white;
+    height: 50px;
+}
+.logo {
+    float: left;
+    padding-left: 20px;
+}
+.navigate {
+	padding-left: 600px;
+}
+
+/*SECTION 2*/
+.banner-cnt {
+	background-image: url(img/man2.png);
+	height: 400px;
+}
+.banner-text-main {
+	padding-left: 200px;
+	padding-top: 100px;
+	color: white;
+	font-size: 45px;
+}
+.banner-text-middle {
+	color: white;
+	font-size: 18px;
+    text-align: center;
+    width: 800px;
+    padding-top: 10px;
+}
+
+.button {
+	padding-top: 10px;
+	padding-left: 250px;
+}
