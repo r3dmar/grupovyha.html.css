@@ -2,6 +2,7 @@
 	font-family: Arial;
 	width: 1170px;
 	margin: auto;
+	position: relative;
 }
 
 /*SECTION 1*/
@@ -75,14 +76,15 @@ header {
 	justify-content: space-around;
 	align-items: center;
 }
-.header-section-9{
+.header-section{
 	text-align: center;
 	padding-top: 15px;
 	padding-bottom: 30px;
 	font-weight: bold;
+	font-size: 18px;
 }
-.header-section-9 span:nth-of-type(2n){
-	color: 0075b4;
+.header-section span:nth-of-type(2n){
+	color: #0075b4;
 }
 .img-icon-section{
 	display: flex;
@@ -92,7 +94,7 @@ header {
 .img-for-icon{
 	width: 100px;
 	height: 100px;
-	background: black;
+	background-image: url(img/bttn.png);
 	color: orange;
 	border-radius: 50%;
 	text-align: center;
@@ -100,4 +102,71 @@ header {
 	justify-content: center;
 	align-items: center;
 	padding: 5px;
+	font-size: 25px;
+}
+
+/*SECTION 10*/
+.section-10{
+	background: black;
+	height: 450px;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.S10-text{
+	padding: 20px 10px 10px 45px;;
+	color: #828156;
+	position: absolute;
+	font-size: 14px;
+}
+.S10_column-1{
+	position: relative;
+	justify-content: space-around;
+	align-items: center;
+	left: 50px;
+	width: 50%;
+	height: 450px;
+	padding: 20px 10px 10px 45px;
+	color: #cbcaa2;
+	line-height: 30px;
+	float: left;
+}
+
+.S10_column-2{
+	position: relative;
+	color: white;
+	float: left;
+	width: 50%;
+	height: 450px;
+	padding: 20px 45px 10px 50px;
+}
+.hdr-S10{
+	font-size: 18px;
+}
+.header-section.hdr-S10.hdr-S10-2{
+	font-size: 24px;
+	font-weight: normal;
+	text-align: center;
+	padding: 20px 90px 40px 30px;
+	letter-spacing: 1px;
+}
+.hdr-S10:first-of-type{
+	text-align: left;
+	color: white;
+	padding: inherit;
+}
+.S10-button{
+	padding: 0px 90px 40px 30px;
+}
+button.btn{
+	background: black;
+	color: white;
+	padding: 10px 40px;
+  border: 1px solid white;
+  position: relative;
+  cursor: pointer;
+	font: 16px;
+	margin: 20px 90px 10px 30px;
+	font-size: 15px;
+	letter-spacing: 1px;
 }
