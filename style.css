@@ -1,7 +1,7 @@
 .contaner {
 	font-family: Arial;
 	width: 1170px;
-	margin: auto;    
+	margin: auto;
 }
 
 /*SECTION 1*/
@@ -54,7 +54,7 @@ header {
 .subscribe {
 	background-color: #215E73;
 	height: 220px;
-	padding: 70px 0 50px 150px; 
+	padding: 70px 0 50px 150px;
 
 	color: white;
 }
@@ -66,4 +66,38 @@ header {
 .subscribe-text{
 	padding-right: 10px;
 	font-size: 14px;
+}
+/*SECTION 9*/
+.section-9{
+	background: #cbcaa2;
+	height: 200px;
+	width: auto;
+	justify-content: space-around;
+	align-items: center;
+}
+.header-section-9{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	font-weight: bold;
+}
+.header-section-9 span:nth-of-type(2n){
+	color: 0075b4;
+}
+.img-icon-section{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.img-for-icon{
+	width: 100px;
+	height: 100px;
+	background: black;
+	color: orange;
+	border-radius: 50%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
 }
