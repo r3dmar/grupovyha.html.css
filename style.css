@@ -68,6 +68,7 @@ header {
 	padding-right: 10px;
 	font-size: 14px;
 }
+
 /*SECTION 9*/
 .section-9{
 	background: #cbcaa2;
@@ -108,10 +109,9 @@ header {
 /*SECTION 10*/
 .section-10{
 	background: black;
-	height: 450px;
+	height: 350px;
 	justify-content: space-around;
 	align-items: center;
-
 }
 .S10-text{
 	padding: 20px 10px 10px 45px;;
@@ -125,19 +125,16 @@ header {
 	align-items: center;
 	left: 50px;
 	width: 50%;
-	height: 450px;
 	padding: 20px 10px 10px 45px;
 	color: #cbcaa2;
 	line-height: 30px;
 	float: left;
 }
-
 .S10_column-2{
 	position: relative;
 	color: white;
 	float: left;
 	width: 50%;
-	height: 450px;
 	padding: 20px 45px 10px 50px;
 }
 .hdr-S10{
@@ -169,4 +166,13 @@ button.btn{
 	margin: 20px 90px 10px 30px;
 	font-size: 15px;
 	letter-spacing: 1px;
+}
+/*SECTION 11*/
+.section-11{
+	width: auto;
+	text-align: center;
+	background: black;
+	color: #cbcaa2;
+	font-size: 13px;
+	padding: 10px;
 }
