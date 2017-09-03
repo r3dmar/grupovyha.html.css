@@ -1,24 +1,26 @@
-.contaner {
+body {
 	font-family: Arial;
-	width: 1170px;
+	max-width: 1170px;
 	margin: auto;
 	position: relative;
 }
 
 /*SECTION 1*/
-
 header {
 	background-color: white;
     height: 50px;
 }
 .logo {
     float: left;
-    padding-left: 20px;
+    padding-left: 35px;
+    padding-top: 5px;
+}
+a.sct1{
+	color:#5bc0de; 
 }
 .navigate {
-	padding-left: 600px;
+	padding-left: 350px;
 }
-
 /*SECTION 2*/
 .banner-cnt {
 	background-image: url(img/man2.png);
@@ -69,6 +71,116 @@ header {
 	font-size: 14px;
 }
 
+/*SECTION 5*/
+#section5 {
+	padding-bottom: 40px;
+}
+#featuring_new_media{
+	background: #fff;
+	height: 200px;
+	max-width: 900px;
+	margin: 45px;
+	display: flex;
+	justify-content: space-around;
+}
+.sect5_row1{
+	margin-left: 15%;
+}
+.sect5_row1col {
+	display: flex;
+	flex-flow:column;
+	margin: 10px;
+}
+p.sct5 {
+	font-size: 13px;
+}
+h4.sct5{
+	color: #5bc0de;
+}
+
+
+/*SECTION 6*/
+#watch_listen{
+	background-color: black;
+	height: 600px;
+	flex-wrap: wrap;
+}
+.sct6_main {
+	margin-left: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+img.sct6{
+	margin: 5px;
+	margin-bottom: 10px;
+}
+.sct6_col {
+	display: flex;
+	flex-flow: column;
+	margin: 10px;	
+}
+div.sct6{
+	margin: 20px;
+}
+a.sct6, h3.sct6{
+	color: #5bc0de;
+}
+div.buttonSct6{
+	display: flex;
+	justify-content: center;
+}
+span.sct6w, p.sct6{
+	color: #fff;
+}
+/*Section 7*/
+#popular_episodes{
+
+}
+div.sct7head{
+	display: flex;
+	align-items: flex-start;
+	margin-top: 20px;
+	margin-left: 45px;
+}
+img.sct7img{
+	height: 150px;
+	display: flex;
+	flex-flow: column;
+	margin-top: 60px;
+	margin-bottom: 35px;
+	padding: 15px;
+
+/*	padding-bottom: 45px;*/
+}
+div.sct7textCol{
+	display: flex;
+	flex-flow: column;
+	margin: 20px;
+	padding: 20px;
+}
+div.sct7text{
+	margin: 15px;
+	padding: 15px;
+}
+div.contentSct7{
+	max-width: 800px;
+ 	display: flex;
+	justify-content: space-between;
+}
+
+/*Section 8*/
+div.twoInRow{
+	display: flex;
+	justify-content: space-between;
+	max-height: 1000px;
+}
+
+
+
+
+
+
+
 /*SECTION 9*/
 .section-9{
 	background: #cbcaa2;
@@ -85,7 +197,7 @@ header {
 	font-size: 18px;
 }
 .header-section span:nth-of-type(2n){
-	color: #0075b4;
+	color: #5bc0de;
 }
 .img-icon-section{
 	display: flex;
@@ -105,7 +217,6 @@ header {
 	padding: 5px;
 	font-size: 25px;
 }
-
 /*SECTION 10*/
 .section-10{
 	background: black;
