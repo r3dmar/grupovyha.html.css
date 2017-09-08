@@ -242,11 +242,12 @@ div.twoInRow{
 	float: left;
 }
 .S10_column-2{
-	position: relative;
-	color: white;
-	float: left;
-	width: 50%;
-	padding: 20px 45px 10px 50px;
+	position: absolute;
+	width: 30%;
+	padding: 0px 5px 10px 5px;
+	margin: 25px 20px 20px;
+	margin-left: 55%;
+	clear: both;
 }
 .hdr-S10{
 	font-size: 18px;
@@ -255,7 +256,7 @@ div.twoInRow{
 	font-size: 24px;
 	font-weight: normal;
 	text-align: center;
-	padding: 20px 90px 40px 30px;
+	padding: 20px 10px 30px 10px;
 	letter-spacing: 1px;
 }
 .hdr-S10:first-of-type{
@@ -263,9 +264,7 @@ div.twoInRow{
 	color: white;
 	padding: inherit;
 }
-.S10-button{
-	padding: 0px 90px 40px 30px;
-}
+
 button.btn{
 	background: black;
 	color: white;
@@ -274,7 +273,7 @@ button.btn{
   position: relative;
   cursor: pointer;
 	font: 16px;
-	margin: 20px 90px 10px 30px;
+	margin: 20px 90px 10px 35px;
 	font-size: 15px;
 	letter-spacing: 1px;
 }
